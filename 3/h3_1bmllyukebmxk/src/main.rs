@@ -49,7 +49,11 @@ fn main() {
 
     let mut spaces_m = "    ";
     println!("spaces_m{}.", spaces_m);
-    spaces_m = spaces_m.len();
+    // spaces_m = spaces_m.len(); 
     println!("spaces_m{}.",spaces_m)
+
+    /*
+        总结：本节学习了rust几个关键字和名词，let：不可变变量，mut：可变变量，常量：const，还有Shadowing（遮蔽或者隐藏）。
+    */
 
 }
